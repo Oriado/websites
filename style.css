@@ -1,0 +1,87 @@
+body {
+    margin: 0px;
+    font-family: 'Amatic SC', cursive;
+    background-color: rgb(234, 245, 254);
+    color: black;
+}
+header {
+    background-color: rgb(94, 31, 220);
+    color: aliceblue;
+    padding: 40px 3px;
+    text-align: center;
+}
+header h1 {
+    font-size: 48px;
+    margin: 0px;
+}
+header p {
+    font-size: 25px;
+    margin-top: 5px;
+}
+main {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+.block-with-homework {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: rgb(94, 31, 220);
+}
+section h1{
+    margin: 10px 0px 40px 0px;
+}
+section h2{
+    font-size: 30px;
+    margin-top: 10px;
+    color: black;
+    border-bottom: 2px solid rgb(94, 31, 220);
+    padding-bottom: 5px;
+}
+ul{
+    list-style: none;
+    text-align: left;
+}
+li{
+    margin: 15px 0px;
+}
+a{
+    text-decoration: none;
+    font-size: 35px;
+    color: rgb(94, 31, 220);
+    transition: all 0.4s ease;
+    position: relative; /*відносно кожного елемента */
+}
+a::after{  /*стиль який з'являється після наведення на елемент а*/
+    content: ''; /* Створює порожній елемент */
+    position: absolute;
+    left: 0px;
+    bottom: -3px;  /* Трохи нижче тексту */
+    width: 0px;
+    height: 3px;
+    background-color: black;
+    transition: width 0.4s ease;
+
+}
+a:hover {     /*стиль тексту посилання a*/
+    color: rgb(90, 28, 138);
+}
+a:hover::after{
+    width: 100%;
+}
+footer{
+    background-color: rgb(94, 31, 220);
+    display: flex;
+    justify-content: space-between;
+    color: aliceblue;
+    padding: 20px;
+}
+.footer-left {
+    font-size: 30px;
+    text-align: center;
+}
+.footer-right a{
+    color: aliceblue;
+    font-size: 30px;
+}

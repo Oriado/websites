@@ -85,3 +85,33 @@ footer{
     color: aliceblue;
     font-size: 30px;
 }
+@media(max-width: 768px) {
+    header h1{
+        font-size: 36px;
+    }
+    header p{
+        font-size: 20px;
+    }
+    main{
+        padding: 20px 10px;
+    }
+    .block-with-homework{
+        font-size: 28px;
+    }
+    section h2{
+        font-size: 24px;
+    }
+    a {
+        font-size: 24px;
+    }
+    footer{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .footer-left,
+    .footer-right a {
+    font-size: 22px;
+    margin: 5px 0;
+  }
+}

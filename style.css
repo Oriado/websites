@@ -20,7 +20,7 @@ header p {
 }
 main {
     padding: 40px 20px;
-    max-width: 900px;
+    max-width: 1080px;
     margin: auto;
 }
 .block-with-homework {
@@ -30,10 +30,11 @@ main {
     color: rgb(94, 31, 220);
 }
 section h1{
+    font-size: 70px;
     margin: 10px 0px 40px 0px;
 }
 section h2{
-    font-size: 30px;
+    font-size: 48px;
     margin-top: 10px;
     color: black;
     border-bottom: 2px solid rgb(94, 31, 220);
@@ -45,6 +46,7 @@ ul{
 }
 li{
     margin: 15px 0px;
+    font-weight: 550;
 }
 a{
     text-decoration: none;

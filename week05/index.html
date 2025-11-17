@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Форма реєстрації</title>
+</head>
+<body>
+    <section id="form">
+        <h2>Форма реєстрації</h2>
+        <form action="#" method="post">
+            <label>Ім'я:<br>
+                <input type="text" name="name" required>
+            </label><br><br>
+
+            <label>Email:<br>
+                <input type="email" name="email" required>
+            </label><br><br>
+            
+            <label>Пароль:<br>
+                <input type="password" name="password"required>
+            </label><br><br>
+            
+            <label>Підтвердження пароля:<br>
+                <input type="password"  name="confirm_password"required>
+            </label><br><br>
+            
+            <label>Вік:<br>
+                <input type="number" name="age" min="1" required>
+            </label><br><br>
+            
+            <label>Приймаю умови:<br>
+                <input type="checkbox" name="terms" required>
+            </label><br><br>
+
+            <label>Стать:<br>
+                <input type="radio" name="gender" value="male" required>Чоловік
+                <input type="radio" name="gender" value="female" required>Жінка
+            </label><br><br>
+            
+            <button type="submit">Зареєструватися</button>
+        </form>
+    </section>
+    <h2></h2>
+
+</body>
+</html>

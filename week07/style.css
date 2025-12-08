@@ -255,39 +255,7 @@ th, td{
     padding: 12px 20px;
     text-align: center;
 }
-/* @media (max-width: 768px) {
-    .our_history {
-        flex-direction: column;
-        margin: 20px;
-    }
-    .timeline-item {
-        margin: 40px 20px;
-    }
-    .member-person {
-        font-size: 28px;
-    }
-    .person {
-        width: 100%;
-        max-width: 300px;
-        margin: 20px auto;
-    }
-    .album-container {
-        flex-direction: column;
-        align-items: center;
-    }
-    .registration button{
-        width: 50%;
-    }
-}
-@media (max-width: 480px) {
-    .navbar-container {
-        flex-direction: column;
-        align-items: center;
-    }
-    .nav-link {
-        margin: 10px 0;
-    }
-} */
+
 @media (max-width: 768px) {
     .our_history {
         flex-direction: column;

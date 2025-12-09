@@ -11,14 +11,12 @@ let entertainment = Number(prompt("Введіть витрати на розва
 let totalExpenses = rent + food + transport + entertainment
 let savings = income - totalExpenses
 
-
-console.log("Загальні витрати: ", totalExpenses)
-console.log("Залишок: ", savings)
-
 if (savings > 0) {
-    console.log("У вас залишилися гроші");
+    message = "У вас залишилися гроші";
 } else if (savings == 0) {
-    console.log("Ви витратили все");
+    message = "Ви витратили все";
 } else{
-    console.log("Ви в мінусі!");
+    message = "Ви в мінусі!";
 }
+
+alert("Загальні витрати: " + totalExpenses + "\nЗалишок: " + savings + "\n" + message);

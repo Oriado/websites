@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="form">
+        <h1>ORIADO.net</h1>
+        <p>Your Personal Security Portal</p>
+        <form action="#" method="post">
+            <label for="name">Username</label>
+            <input type="text" id="name" name="name" placeholder="Enter your username" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            <label for="terms">
+                <input type="checkbox" name="terms" required>
+                I agree to the terms and conditions
+            </label>
+
+            <button type="submit">LOGIN</button>
+        </form>
+    </section>
+    <section id="binary-section">
+        <h2>Biometric Login</h2>
+        <p>Quick and secure access to your account</p>
+
+        <div class="scan-area">
+            <div class="scan-button">
+                <span></span>
+            </div>
+        </div>
+
+        <div class="instruction">
+            <p>Touch your fingerprint. Place your finger on the scanner</p>
+        </div>
+
+        <p class="signup-link">
+            Don't have an account? <a href="#">Sign Up</a>
+        </p>
+    </section>
+
+</body>
+
+</html>

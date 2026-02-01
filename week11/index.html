@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Зміна фону</title>
+    <style>
+        body {
+            background-color: white;
+            color: black;
+            margin: 0;
+            padding: 0;
+        }
+
+        body.dark {
+            background-color: black;
+            color: white;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 200px;
+        }
+
+        #btn {
+            background-color: black;
+            color: yellow;
+            border-radius: 10px;
+            padding: 30px;
+            font-size: 30px;
+            cursor: pointer;
+            display: block;
+            margin: 50px auto;
+
+        }
+
+        body.dark #btn {
+            background-color: red;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Перемикання теми</h1>
+    <button id="btn">Змінити тему</button>
+
+    <script src="script.js"></script>
+</body>
+
+
+</html>

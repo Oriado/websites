@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email перевірка</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        input {
+            padding: 10px;
+            width: 200px;
+        }
+
+        button {
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 10px;
+            padding: 10px;
+            font-size: 15px;
+            cursor: pointer;
+            display: block;
+            margin: 10px auto;
+        }
+
+        #button_correct {
+            background-color: green;
+            color: white;
+        }
+
+        #button_incorrect {
+            background-color: red;
+            color: white;
+        }
+
+        p {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Перевірка Email</h1>
+    <input type="email" id="email" placeholder="Введіть email">
+    <button id="btn">Перевірити</button>
+    <p id="result"></p>
+    <script src="script.js"></script>
+</body>
+
+</html>

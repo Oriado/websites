@@ -1,0 +1,46 @@
+body {
+    font-family: 'Amatic SC', cursive;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.input-section {
+    display: flex;
+    gap: 10px;
+}
+
+.task-list {
+    list-style: none;
+    padding: 0;
+}
+
+.delete-btn {
+    margin-left: 10px;
+}
+
+#taskInput {
+    padding: 10px;
+    width: 100%;
+}
+
+#addBtn {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.delete-btn {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}

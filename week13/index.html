@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <title>Week 13</title>
+    <style>
+        body {
+            font-family: 'Amatic SC', sans-serif;
+            background-color: #bfbebe;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 20px;
+
+        }
+
+        .input-section {
+            margin-bottom: 20px;
+        }
+
+        .input-section input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        .input-section button {
+            padding: 10px;
+            margin-right: 10px;
+        }
+
+        .notes-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .notes-list li {
+            padding: 10px;
+            margin-bottom: 10px;
+            background-color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Мої нотатки</h1>
+        <div class="input-section">
+            <input type="text" id="text" placeholder="Введіть нотатку">
+            <button id="btn">Зберегти</button>
+            <button id="clearBtn">Видалити всі нотатки</button>
+        </div>
+        <ul id="notesList">
+            <li></li>
+        </ul>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
